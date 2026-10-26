@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
   pull_request:
-  schedule:
-    - cron: "*/5 * * * *"
+#   schedule:
+#     - cron: "*/5 * * * *"
 
 jobs:
   event-info-job:
